@@ -110,7 +110,10 @@ body {
 
 .wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  align-content: flex-start;
 }
 
 .div-1, 
@@ -120,9 +123,9 @@ body {
   width: 30%;
   height: auto;
   justify-content: flex-start;
-  align-items: flex-start;
-  line-height: 1.5em;
-  padding: 20px;
+  align-items: center;
+  padding: 1em;
+  line-height: 2em;
 }
 
 .div-2 {
@@ -137,7 +140,7 @@ p {
     font-size: 1.2em;
 }
 
-span{
+.div-1 span {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
